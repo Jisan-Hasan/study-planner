@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "img": "https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg",
+      "time": 45,
+      "name": "Data Structure & Algorithm"
+    },
+    {
+      "id": "2",
+      "img": "https://d3mxt5v3yxgcsr.cloudfront.net/courses/3199/course_3199_image.png",
+      "time": 30,
+      "name": "Discrete Mathematics"
+    },
+    {
+      "id": "3",
+      "img": "https://www.mycslab.in/wp-content/uploads/2020/01/database-management-system.jpg",
+      "time": 45,
+      "name": "Database Management System"
+    },
+    {
+      "id": "4",
+      "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Advantages_and_Disadvantages_of_artificial_intelligence.jpg",
+      "time": 30,
+      "name": "Artificial Intelligence"
+    },
+    {
+      "id": "5",
+      "img": "https://mechomotive.com/wp-content/uploads/2021/07/Operating-System.jpg2",
+      "time": 30,
+      "name": "Operating System"
+    },
+    {
+      "id": "6",
+      "img": "https://blog.bydrec.com/hubfs/3%20Benefits%20of%20Outsourcing%20the%20QA%20and%20Testing%20of%20Your%20New%20Programming%20Software.jpg",
+      "time": 60,
+      "name": "Software Testing & Quality Assurance"
+    }
+  ]
