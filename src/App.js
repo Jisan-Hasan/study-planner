@@ -1,10 +1,11 @@
 
 import './App.css';
+import StudyPlanner from './components/StudyPlanner/StudyPlanner';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <StudyPlanner></StudyPlanner>
     </div>
   );
 }
