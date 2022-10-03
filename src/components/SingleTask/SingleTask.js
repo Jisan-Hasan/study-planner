@@ -13,7 +13,12 @@ const SingleTask = ({ task, handleAddToList }) => {
           <h2 className="card-title">{name}</h2>
           <p>Time: {time} Min.</p>
           <div className="card-actions">
-            <button onClick={() => handleAddToList(time)} className="btn btn-primary px-10">Add To List</button>
+            <button
+              onClick={() => handleAddToList(time)}
+              className="btn btn-primary px-6"
+            >
+              Add To List
+            </button>
           </div>
         </div>
       </div>
