@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SingleTask from '../SingleTask/SingleTask';
 import "./AllTasks.css";
 
-const AllTasks = () => {
+const AllTasks = ({handleAddToList}) => {
     const [tasks, setTasks] = useState([]);
     useEffect(() => {
         fetch(`fakedata.json`)
@@ -15,7 +15,7 @@ const AllTasks = () => {
             <p>Select your Study Topic Now.</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-3 w-full h-full'>
                 {
-                    tasks.map(task => <SingleTask task={task} key={task.id}></SingleTask>)
+                    tasks.map(task => <SingleTask task={task} key={task.id} handleAddToList={handleAddToList}></SingleTask>)
                 }
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./SingleTask.css";
 
-const SingleTask = ({ task }) => {
+const SingleTask = ({ task, handleAddToList }) => {
   const { img, name, time } = task;
   return (
     <div>
@@ -13,7 +13,7 @@ const SingleTask = ({ task }) => {
           <h2 className="card-title">{name}</h2>
           <p>Time: {time} Min.</p>
           <div className="card-actions">
-            <button className="btn btn-primary px-10">Add To List</button>
+            <button onClick={() => handleAddToList(time)} className="btn btn-primary px-10">Add To List</button>
           </div>
         </div>
       </div>
