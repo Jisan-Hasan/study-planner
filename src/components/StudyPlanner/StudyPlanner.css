@@ -1,13 +1,13 @@
 .studyplanner-container{
     display: grid;
-    grid-template-columns: 65vw 35vw;
+    grid-template-columns: 70vw 30vw;
 }
 
 
 
 
 
-@media screen and (max-width: 565px){
+@media screen and (max-width: 768px){
     .studyplanner-container{
         display: block;
     }    
